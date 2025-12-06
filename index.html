@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hồ sơ năng lực - PHÁT ĐẠT</title>
+  <meta name="description" content="Hồ sơ năng lực Công ty TNHH Cơ điện & Xây dựng Phát Đạt" />
+  <style>
+    :root{--brand:#0b66a3;--muted:#666;--bg:#f3f6fb;--card:#fff;--maxw:1100px}
+    *{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:#222}
+    header{background:linear-gradient(90deg,var(--brand),#043e66);color:#fff;padding:22px 12px}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:0 12px}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:84px;height:84px;border-radius:10px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden}
+    .logo img{width:100%;height:100%;object-fit:contain;display:block}
+    nav{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap}
+    nav a{color:#fff;text-decoration:none;padding:7px 10px;border-radius:6px;background:rgba(255,255,255,0.08);font-size:14px}
+    main{max-width:var(--maxw);margin:18px auto;padding:0 12px}
+    .card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 20px rgba(20,30,40,0.06);margin-bottom:16px}
+    .team{display:flex;gap:12px;flex-wrap:wrap}
+    .person{width:180px;text-align:center}
+    .person img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .proj img{width:100%;height:150px;object-fit:cover;display:block;border-radius:8px}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+    .gallery img{width:100%;height:120px;object-fit:cover;border-radius:6px;border:4px solid #fffd80}
+    footer{background:#043e66;color:#fff;padding:16px;margin-top:18px}
+    @media (max-width:900px){.brand{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo"><img src="assets/image1.png" alt="Logo Phát Đạt" /></div>
+      <div>
+        <div style="font-size:13px;opacity:.95">CÔNG TY TNHH CƠ ĐIỆN VÀ XÂY DỰNG</div>
+        <h1 style="margin:6px 0 2px">PHÁT ĐẠT</h1>
+        <div style="font-size:12px;opacity:.95">Thôn An Phú, Xã Bắc Lũng, Tỉnh Bắc Ninh · 0588 934 444</div>
+      </div>
+    </div>
+    <nav style="margin-top:12px">
+      <a href="#gioithieu">Giới thiệu</a>
+      <a href="#tamnhin">Tầm nhìn</a>
+      <a href="#dichvu">Lĩnh vực</a>
+      <a href="#nhansu">Nhân sự</a>
+      <a href="#duan">Dự án</a>
+      <a href="#lienhe">Liên hệ</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="gioithieu" class="card">
+    <h2>Giới thiệu chung</h2>
+    <p><strong>Công ty TNHH Cơ điện - Xây dựng Phát Đạt</strong> hoạt động chuyên nghiệp trong thi công cơ điện (M&E), xây dựng dân dụng & công nghiệp. Với đội ngũ kỹ sư, kỹ thuật viên và trang thiết bị, Phát Đạt cam kết thi công đúng tiến độ, đảm bảo chất lượng và an toàn.</p>
+  </section>
+
+  <section id="nhansu" class="card">
+    <h2>Nhân sự chủ chốt</h2>
+    <div class="team">
+      <div class="person card"><img src="assets/image2.png" alt="Giám đốc" loading="lazy"><div style="font-weight:700;margin-top:8px">Giám đốc</div></div>
+      <div class="person card"><img src="assets/image3.png" alt="Kỹ sư trưởng" loading="lazy"><div style="font-weight:700;margin-top:8px">Ông Zhao Guo Gui</div></div>
+      <div class="person card"><img src="assets/image4.png" alt="Nhân sự" loading="lazy"><div style="font-weight:700;margin-top:8px">Nhân sự</div></div>
+    </div>
+  </section>
+
+  <section id="thietbi" class="card">
+    <h2>Thiết bị & Công cụ</h2>
+    <div class="projects">
+      <div class="proj"><img src="assets/image5.png" alt="Máy móc" loading="lazy"></div>
+      <div class="proj"><img src="assets/image6.png" alt="Dụng cụ" loading="lazy"></div>
+      <div class="proj"><img src="assets/image7.png" alt="Thiết bị" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section id="duan" class="card">
+    <h2>Dự án & Thi công</h2>
+    <div class="projects">
+      <div class="proj"><img src="assets/image8.png" alt="Vách nhôm kính" loading="lazy"><div style="padding:8px">Vách nhôm kính - Văn phòng</div></div>
+      <div class="proj"><img src="assets/image9.png" alt="Ống gió" loading="lazy"><div style="padding:8px">Hệ thống ống gió</div></div>
+      <div class="proj"><img src="assets/image10.png" alt="Thi công nhà xưởng" loading="lazy"><div style="padding:8px">Thi công nhà xưởng</div></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Gallery dự án</h2>
+    <div class="gallery">
+      <img src="assets/image11.png" loading="lazy" alt="Gallery 1"><img src="assets/image12.png" loading="lazy" alt="Gallery 2"><img src="assets/image13.png" loading="lazy" alt="Gallery 3">
+    </div>
+  </section>
+
+  <section id="lienhe" class="card">
+    <h2>Liên hệ</h2>
+    <p><strong>Địa chỉ:</strong> Thôn An Phú, Xã Bắc Lũng, Tỉnh Bắc Ninh</p>
+    <p><strong>Điện thoại:</strong> 0588 934 444 · <strong>Email:</strong> phatdatcdbg@gmail.com</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+    <div><strong>PHÁT ĐẠT</strong><br>Thôn An Phú, Xã Bắc Lũng, Bắc Ninh</div>
+    <div style="font-size:13px;opacity:.9">© 2025 PHÁT ĐẠT</div>
+  </div>
+</footer>
+
+</body>
+</html>
